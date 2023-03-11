@@ -19,6 +19,7 @@ public class LogoutServlet extends HttpServlet {
 		session.setAttribute("Username", null);
 		
 		resp.sendRedirect("login.jsp");
+		
 
 	}
 
